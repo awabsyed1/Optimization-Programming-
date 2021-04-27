@@ -23,7 +23,11 @@ while norm (gradient) > epsilon
    %---------------------------Gradient and Hessian -------------------%
 <<<<<<< HEAD
    gradient = pen_grad(x);
-   hessian = hessian_t(x);
+   hessian1 = hessian_t(x);
+=======
+   gradient = rosenbrock_grad(x);
+   hessian1 = rosenbrock_hessian(x);
+>>>>>>> Gradient-/-Steepest-Gradient-Method-Newton's-Method
    
    A(k) = a; %Step size 
    Solution(k,:) = x;
