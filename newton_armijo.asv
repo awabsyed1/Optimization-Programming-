@@ -21,9 +21,8 @@ while norm (gradient) > epsilon
    x = x + a*d; %value of x 
    obj = newobj; %Final value of the function
    %---------------------------Gradient and Hessian -------------------%
-<<<<<<< HEAD
-   gradient = pen_grad(x);
-   hessian = hessian_t(x);
+   gradient = rosenbrock_grad(x);
+   hessian = rosenbrock_hessian(x);
    
    A(k) = a; %Step size 
    Solution(k,:) = x;
@@ -35,10 +34,7 @@ A(k) = a;
 Iterate(k) = k;
 A = A';
 Iterate = Iterate';
-fprintf('\n Iterations     Step size\n')';
-for i = 1:k
-    fprintf(' %d                 %f\n',Iterate(i),A(i));
-end 
+fprintf('\n
 %-------------------------------Display x and k-------------------------%
 fprintf('\nFinal value of x = ');
 x
