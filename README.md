@@ -1,13 +1,20 @@
 # Optimization-Programming-
 Optimization Programming / Algorithm for finding minimum 
 
-Optimization 
+# Optimization 
 - Steepest descent search algorithm with and without Armijo Rule 
 - Newton's method 
 - Steepest Descent Algorithm
 Hessian matrix | inexact backtracking line search 
 
+## Newton's Method (Armijo Rule) 
 
+![image](https://user-images.githubusercontent.com/42310216/146131723-8772170d-3502-4fc3-b115-159ad1c8cee7.png)
+
+
+## Steepest Descent Search Algorithm (Backtracking) 
+
+![image](https://user-images.githubusercontent.com/42310216/146131808-65aba4b1-94a7-4575-bf0b-bdc83e70da3d.png)
 
 Unconstrained non-linear optimization using MATLAB function, 'fminunc' to minimize Rosenbrock function 
 
